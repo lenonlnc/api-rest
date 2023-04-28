@@ -25,11 +25,11 @@ export class CreateUserUseCase {
                 email:data.email
             },
             from: {
-                name: 'Remetente teste',
-                email: 'remetentesteste@teste.com'
+                name: 'Test',
+                email: 'test@test.com'
             },
-            subject: 'Obrigado por se cadastrar na plataforma!',
-            body: '<p>Seu login dentro da plataforma está liberado agora.</p>'
+            subject: 'Thanks for signing to our plataform!',
+            body: '<p>You are free to login now.</p>'
         })
     }
 }
